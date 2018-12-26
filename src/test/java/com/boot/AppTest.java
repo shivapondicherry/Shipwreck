@@ -14,6 +14,6 @@ public class AppTest {
     public void testApp() {
         HomeController hc = new HomeController();
         String result = hc.home();
-        assertEquals(result, "This is a sample java springboot application");
+        assertEquals(result, "This is a sample java spring application");
     }
 }
